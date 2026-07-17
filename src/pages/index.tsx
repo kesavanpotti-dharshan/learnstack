@@ -83,6 +83,12 @@ const topics: Topic[] = [
     description: "Notes on database concepts and technologies.",
     to: "/docs/category/databases",
   },
+  {
+    title: "Python",
+    emoji: "🐍",
+    description: "Notes on Python programming and libraries.",
+    to: "/docs/category/python",
+  },
 ];
 
 function TopicGrid() {
