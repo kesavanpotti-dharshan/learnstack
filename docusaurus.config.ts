@@ -115,7 +115,7 @@ const config: Config = {
         {
           title: "Links",
           items: [
-            { label: "Notes", to: "/docs/intro" },
+            { label: "Notes", to: "/docs/" },
             { label: "Blog", to: "/blog" },
             {
               label: "GitHub",

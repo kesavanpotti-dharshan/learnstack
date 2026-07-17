@@ -51,13 +51,13 @@ const topics: Topic[] = [
     title: "Azure",
     emoji: "☁️",
     description: "AKS, Service Bus, Functions, Entra ID, cloud patterns.",
-    to: "/docs/azure",
+    to: "/docs/category/azure",
   },
   {
     title: "React",
     emoji: "⚛️",
     description: "Hooks, state management, TypeScript, performance.",
-    to: "/docs/react",
+    to: "/docs/category/react",
   },
   {
     title: "DevOps",
@@ -69,19 +69,19 @@ const topics: Topic[] = [
     title: "DSA",
     emoji: "🧠",
     description: "Data structures, algorithms, problem-solving patterns.",
-    to: "/docs/dsa",
+    to: "/docs/category/dsa",
   },
   {
     title: "System Design",
     emoji: "🏗️",
     description: "Scalability, microservices, distributed systems.",
-    to: "/docs/system-design",
+    to: "/docs/category/system-design",
   },
   {
     title: "Interview Experiences",
     emoji: "🎯",
     description: "Real interview notes, questions asked, lessons learned.",
-    to: "/docs/interview-experiences",
+    to: "/docs/category/interview-experiences",
   },
 ];
 
