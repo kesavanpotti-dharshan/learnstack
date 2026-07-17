@@ -1,0 +1,7 @@
+{
+  "label": "Azure Kubernetes Service (AKS)",
+  "link": {
+    "type": "generated-index",
+    "description": "Notes on Azure Kubernetes Service (AKS)."
+  }
+}

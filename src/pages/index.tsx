@@ -78,10 +78,10 @@ const topics: Topic[] = [
     to: "/docs/category/system-design",
   },
   {
-    title: "Interview Experiences",
-    emoji: "🎯",
-    description: "Real interview notes, questions asked, lessons learned.",
-    to: "/docs/category/interview-experiences",
+    title: "Databases",
+    emoji: "🗄️",
+    description: "Notes on database concepts and technologies.",
+    to: "/docs/category/databases",
   },
 ];
 
