@@ -1,30 +1,80 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Learnstack theme — "Terminal Indigo"
+ * A cool indigo/violet primary with a slate neutral base —
+ * reads as a modern dev-tool, not a default Docusaurus site.
+ * Pairs well with a monospace-flavored code theme.
  */
 
-/* You can override the default Infima variables here. */
+/* Light mode */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #5b5fef;
+  --ifm-color-primary-dark: #3d41ec;
+  --ifm-color-primary-darker: #2d31ea;
+  --ifm-color-primary-darkest: #1e21c0;
+  --ifm-color-primary-light: #797df1;
+  --ifm-color-primary-lighter: #898cf3;
+  --ifm-color-primary-lightest: #b6b8f8;
+
+  --ifm-code-font-size: 90%;
+  --ifm-font-family-base: 'Karla', system-ui, sans-serif;
+  --ifm-heading-font-family: 'Mulish', system-ui, sans-serif;
+  --ifm-font-family-monospace:
+    "JetBrains Mono", "Fira Code", SFMono-Regular, monospace;
+  --ifm-heading-font-weight: 800;
+  --ifm-heading-color: #1a1a2e;
+
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+
+  --docusaurus-highlighted-code-line-bg: rgba(91, 95, 239, 0.1);
+
+  --ifm-card-border-radius: 10px;
+  --ifm-global-radius: 8px;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+/* Dark mode */
+[data-theme="dark"] {
+  --ifm-color-primary: #8b8ef7;
+  --ifm-color-primary-dark: #6b6ff2;
+  --ifm-color-primary-darker: #5b5fef;
+  --ifm-color-primary-darkest: #3d41ec;
+  --ifm-color-primary-light: #a5a7f9;
+  --ifm-color-primary-lighter: #b6b8f8;
+  --ifm-color-primary-lightest: #d4d5fb;
+
+  --ifm-background-color: #14141f;
+  --ifm-background-surface-color: #1b1b2b;
+  --ifm-navbar-background-color: #14141f;
+
+  --docusaurus-highlighted-code-line-bg: rgba(139, 142, 247, 0.15);
+}
+
+/* Slightly tighter, punchier headings */
+.markdown h1 {
+  font-size: 2.2rem;
+  letter-spacing: -0.02em;
+}
+
+.markdown h2 {
+  font-size: 1.6rem;
+  letter-spacing: -0.01em;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  padding-bottom: 0.4rem;
+}
+
+/* Cards (category index tiles) get a subtle lift on hover */
+.card {
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(91, 95, 239, 0.15);
+}
+
+/* Code blocks: slightly rounder, tighter line height for scanning */
+div[class^="codeBlockContainer"] {
+  border-radius: 10px;
 }
