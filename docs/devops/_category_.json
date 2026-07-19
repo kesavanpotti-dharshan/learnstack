@@ -2,7 +2,7 @@
   "label": "DevOps",
   "position": 3,
   "link": {
-    "type": "generated-index",
-    "description": "Notes on DevOps, CI/CD, and related practices."
+    "type": "doc",
+    "id": "devops-lifecycle-roadmap"
   }
 }
