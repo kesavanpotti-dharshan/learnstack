@@ -1,0 +1,74 @@
+.hero {
+    text-align: center;
+    padding: 2.5rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 16px;
+    background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-darker) 100%);
+    color: white;
+}
+
+.heroEmoji {
+    font-size: 2.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.heroTitle {
+    color: white;
+    margin: 0 0 0.75rem;
+    font-size: 2.25rem;
+}
+
+.heroText {
+    margin: 0 auto;
+    max-width: 560px;
+    font-size: 1.05rem;
+    opacity: 0.95;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid var(--ifm-color-emphasis-300);
+    border-radius: 12px;
+    padding: 1.5rem;
+    height: 100%;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    background: var(--ifm-background-surface-color);
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-color: var(--ifm-color-primary);
+    color: inherit;
+}
+
+.cardEmoji {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.cardTitle {
+    margin: 0 0 0.5rem;
+}
+
+.cardDesc {
+    margin: 0;
+    color: var(--ifm-color-emphasis-700);
+    font-size: 0.95rem;
+}
+
+.cardCta {
+    margin-top: 1rem;
+    font-weight: 600;
+    color: var(--ifm-color-primary);
+    font-size: 0.9rem;
+}

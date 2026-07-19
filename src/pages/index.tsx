@@ -63,7 +63,7 @@ const topics: Topic[] = [
     title: "DevOps",
     emoji: "⚙️",
     description: "CI/CD pipelines, Docker, observability, deployment.",
-    to: "/docs/category/devops",
+    to: "/docs/devops/devops-lifecycle-roadmap",
   },
   {
     title: "DSA",
