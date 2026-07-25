@@ -57,7 +57,7 @@ const topics: Topic[] = [
     title: "React",
     emoji: "⚛️",
     description: "Hooks, state management, TypeScript, performance.",
-    to: "/docs/category/react",
+    to: "/docs/react/react-mastery-path",
   },
   {
     title: "DevOps",
