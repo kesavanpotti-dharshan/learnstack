@@ -1,8 +1,4 @@
----
-title: React — Architect-Level Mastery Path
-sidebar_label: React - Topics
-sidebar_position: 1
----
+# React — Architect-Level Roadmap
 
 **1. Core Foundations**
 
