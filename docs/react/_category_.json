@@ -2,7 +2,6 @@
   "label": "React",
   "position": 4,
   "link": {
-    "type": "generated-index",
-    "description": "Notes on React."
+    "type": "generated-index"
   }
 }

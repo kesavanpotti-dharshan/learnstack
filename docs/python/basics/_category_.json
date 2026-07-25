@@ -1,7 +1,7 @@
 {
-  "label": "Azure Active Directory",
+  "label": "Python Basics",
   "link": {
     "type": "generated-index",
-    "description": "Notes on Azure Active Directory."
+    "description": "Notes on Python basics."
   }
 }
