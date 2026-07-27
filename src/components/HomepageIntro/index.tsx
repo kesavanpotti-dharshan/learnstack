@@ -18,7 +18,7 @@ const topics = [
     emoji: "⚛️",
     title: "React",
     desc: "React, TypeScript, hooks, and frontend patterns.",
-    link: "/react",
+    link: "/FrontEnd/react/react-mastery-path",
   },
   {
     emoji: "🛠️",
