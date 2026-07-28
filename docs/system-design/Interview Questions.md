@@ -174,3 +174,40 @@ i want to know how to handle schema changes in events
 can you show me how snapshots work in practice
 
 tell me about common challenges with eventual consistency
+let's compare hexagonal vs clean architecture
+
+hexagonal vs layered architecture differences
+
+how to structure a project with hexagonal architecture
+
+i'd like to see a code example of hexagonal architecture
+
+what are the main challenges of using hexagonal architecture
+
+Vertical slice vs clean architecture
+
+Vertical slice vs layered architecture
+
+Can I use vertical slices with layered architecture
+
+Benefits of vertical slice in microservices
+
+When is vertical slice architecture a bad idea
+I would like to know about saga choreography vs orchestration
+
+Can you explain saga vs two-phase commit in more detail
+
+Tell me about saga vs two-phase commit first please
+
+Let's discuss saga choreography vs orchestration next
+
+Please compare saga vs two-phase commit first
+I would like to compare serverless vs microservices
+
+Can you explain cold starts and how to mitigate them
+
+Let's look at serverless vs microservices first
+
+How do I deal with cold starts in my application
+
+Start by explaining serverless vs microservices please
