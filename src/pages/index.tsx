@@ -87,7 +87,7 @@ const topics: Topic[] = [
     title: "Python",
     emoji: "🐍",
     description: "Notes on Python programming and libraries.",
-    to: "/docs/category/python",
+    to: "/docs/BackEnd/python/python-roadmap",
   },
 ];
 

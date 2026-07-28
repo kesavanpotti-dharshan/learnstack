@@ -1,7 +1,6 @@
 {
-  "label": "Python Basics",
+  "label": "Foundational",
   "link": {
-    "type": "generated-index",
-    "description": "Notes on Python basics."
+    "type": "generated-index"
   }
 }
