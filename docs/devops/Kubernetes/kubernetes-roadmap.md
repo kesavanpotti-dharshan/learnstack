@@ -1,5 +1,5 @@
 ---
-title: Kubernetes — Basic to Architect Level
+title: Kubernetes - Basic to Architect Level
 sidebar_position: 1
 ---
 
