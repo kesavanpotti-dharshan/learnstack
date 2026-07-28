@@ -129,3 +129,48 @@ Tell me more about circuit breakers for system stability
 I am interested in how to implement throttling at the gateway
 
 How do I handle throttling in a distributed environment
+I would like to compare it with retry and timeout mechanisms
+
+Can you show an implementation example using Resilience4j
+
+I am interested in how to implement this in ASP.NET Core
+
+What are the best practices for setting the failure thresholds
+
+Explain how this differs from bulkheading in microservices
+i am interested in cqrs with event sourcing
+
+comparing cqrs with layered crud architecture
+
+how do i handle eventual consistency in cqrs
+
+when should i avoid using the cqrs pattern
+
+tell me more about event sourcing basics
+I'm interested in strategic DDD for microservices design
+
+Could you explain tactical patterns in more detail
+
+I want to learn how to map bounded contexts effectively
+
+I'm trying to figure out how to implement aggregates correctly
+
+I need help with tactical modeling for complex business logic
+I want to learn about designing events and topics
+
+I want to compare EDA with direct API calls
+
+How do I choose between these two approaches
+
+I am designing an event-driven system for work
+
+Please explain how to model events for my use case
+i am interested in using it with cqrs
+
+when is it worth the complexity for my project
+
+i want to know how to handle schema changes in events
+
+can you show me how snapshots work in practice
+
+tell me about common challenges with eventual consistency
