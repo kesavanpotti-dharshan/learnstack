@@ -1,4 +1,4 @@
-# Artificial Intelligence — Basic to Architect Level
+# Artificial Intelligence - Basic to Architect Level
 
 ## 1. Foundations
 
