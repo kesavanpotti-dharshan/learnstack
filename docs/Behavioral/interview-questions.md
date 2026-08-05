@@ -9,8 +9,14 @@ sidebar_position: 2
 Conflict is inevitable in engineering. Interviewers are looking for empathy, logic, and a focus on the user/business over ego.
 
 1. Tell me about a time you strongly disagreed with a senior engineer or your manager about a technical decision. How did you handle it?
+   - manager said to use database query but I preferred sql procedure as it will have more flexibility, transactions, control and optimization.
+   - presented the time taken for both the scenarios and approached back with data.
 2. Describe a situation where a team member was constantly blocking your progress or consistently delivering sub-par code.
+   - junior developer was pushing the code with bugs and no exception handling
+   - explain the importance and gave a demo for the problems that can come with the code and did pair programming with developer.
 3. Have you ever had to push back on a product manager because a feature was too risky or technically unfeasible?
+   - manager shared a timeline with the business team which was not achievable
+   - I explained and gave a walkthrough of before and after timeline such that he can explain to business team
 4. Tell me about a time you had to compromise on a technical design to meet a business deadline.
 5. How do you handle situations where two teams are fighting over ownership of a shared service?
 6. Describe a time when a code review became contentious.
@@ -46,7 +52,7 @@ Interviewers want to see that you take accountability, don't throw colleagues un
 
 The "Result" must be a systemic change. "I took responsibility for bringing down the database. After restoring it, I added a pre-commit hook that prevents massive schema migrations from running without a DBA review, which prevented 3 similar incidents the following year."
 
-### Possible Answer:
+### ✅ Possible Answer:
 
 I [caused/inherited] an issue where [a production outage / bug — e.g., a deploy that took down a shared service, or a hard-to-reproduce prod-only bug], and once I identified [root cause], I owned it directly with the team rather than deflecting — communicated impact and timeline early, fixed it with [immediate mitigation], then did a proper root-cause writeup. The real fix wasn't just patching the bug — it was [systemic change: added monitoring/alerting, a pre-deploy check, better test coverage] so the same class of issue couldn't recur. That postmortem became a template the team reused for future incidents."
 
