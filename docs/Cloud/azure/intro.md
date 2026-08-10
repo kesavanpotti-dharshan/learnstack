@@ -4,9 +4,15 @@ sidebar_position: 1
 ---
 
 ## Summary
+
 Notes on Azure services used by big companies.
 
+## Microsoft Azure Docs
+
+- https://learn.microsoft.com/en-us/azure/architecture/guide/
+
 ## Top 10 Azure Services
+
 - Azure Virtual Machines
 - Azure App Service
 - Azure Kubernetes Service (AKS)

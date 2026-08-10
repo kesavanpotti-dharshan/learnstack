@@ -211,3 +211,12 @@ Let's look at serverless vs microservices first
 How do I deal with cold starts in my application
 
 Start by explaining serverless vs microservices please
+Monolith to microservices data migration strategies
+
+Handling shared databases during the strangler fig migration
+
+API gateway patterns for incremental application migration
+
+Pros and cons of big-bang rewrites vs strangler fig
+
+How to handle legacy database rollback during strangler fig
