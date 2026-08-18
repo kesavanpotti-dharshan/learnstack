@@ -1,7 +1,8 @@
 {
   "label": "Azure Cosmos DB",
+  "position": 1,
   "link": {
-    "type": "generated-index",
-    "description": "Notes on Azure Cosmos DB."
+    "type": "doc",
+    "id": "azure-cosmos-db"
   }
 }

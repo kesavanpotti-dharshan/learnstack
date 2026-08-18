@@ -6,6 +6,10 @@ sidebar_position: 1
 
 # DevOps Lifecycle Roadmap
 
+![DevOps Roadmap](./img/devops_roadmap.png)
+
+## DevOps Lifecycle Breakdown with Skills
+
 A stage-by-stage breakdown of the DevOps lifecycle with the core tools/skills to learn at each stage.
 
 | #   | Lifecycle Stage                      | Purpose                                   | Top Tools/Skills to Learn                                                    | Notes                                                      |

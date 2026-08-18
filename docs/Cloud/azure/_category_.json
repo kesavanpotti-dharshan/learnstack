@@ -1,8 +1,8 @@
 {
-  "label": "Azure",
-  "position": 3,
+  "label": "AZURE",
+  "position": 4,
   "link": {
-    "type": "generated-index",
-    "description": "Notes on Azure."
+    "type": "doc",
+    "id": "intro"
   }
 }
