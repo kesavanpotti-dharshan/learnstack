@@ -98,3 +98,13 @@ sidebar_position: 2
     Azure Managed Disks types and performance
     Azure VM backup and disaster recovery options
     Azure Virtual Machine vs Azure App Service
+    Azure SQL Managed Instance vs Azure SQL Database
+    Azure SQL Managed Instance pricing and cost optimization
+    How to migrate to Azure SQL Managed Instance
+    Azure SQL Managed Instance high availability and SLA
+    Azure SQL Managed Instance VNet configuration requirements
+    How to migrate from DTU to vCore in Azure SQL
+    Cost comparison between DTU and vCore pricing tiers
+    When to use Azure SQL Serverless vCore compute
+    Azure SQL Database DTU limits and maximum size
+    How to choose the right service tier in Azure SQL
