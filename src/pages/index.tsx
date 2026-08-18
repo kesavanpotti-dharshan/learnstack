@@ -51,7 +51,7 @@ const topics: Topic[] = [
     title: "Azure",
     emoji: "☁️",
     description: "AKS, Service Bus, Functions, Entra ID, cloud patterns.",
-    to: "/docs/category/azure",
+    to: "/docs/Cloud/azure/intro",
   },
   {
     title: "React",
