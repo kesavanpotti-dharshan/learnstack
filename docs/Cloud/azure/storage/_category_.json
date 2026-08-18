@@ -1,7 +1,8 @@
 {
   "label": "Azure Storage",
+  "position": 4,
   "link": {
-    "type": "generated-index",
-    "description": "Notes on Azure Storage."
+    "type": "doc",
+    "id": "index"
   }
 }

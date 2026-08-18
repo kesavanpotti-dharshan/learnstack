@@ -93,3 +93,8 @@ sidebar_position: 2
 88. Cost optimization strategies for scale-to-zero apps
 89. Best practices for implementing Dapr in Container Apps
 90. Securing microservice communication in ACA environments
+    Azure VM pricing models and reserved instances
+    How to connect to Azure VM using SSH or RDP
+    Azure Managed Disks types and performance
+    Azure VM backup and disaster recovery options
+    Azure Virtual Machine vs Azure App Service

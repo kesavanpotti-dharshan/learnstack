@@ -1,6 +1,8 @@
 {
   "label": "Azure Logic Apps",
+  "position": 4,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "index"
   }
 }

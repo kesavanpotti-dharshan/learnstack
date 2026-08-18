@@ -1,7 +1,8 @@
 {
   "label": "Azure Active Directory",
+  "position": 4,
   "link": {
-    "type": "generated-index",
-    "description": "Notes on Azure Active Directory."
+    "type": "doc",
+    "id": "index"
   }
 }

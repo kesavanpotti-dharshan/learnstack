@@ -1,7 +1,8 @@
 {
   "label": "Azure App Service",
+  "position": 4,
   "link": {
-    "type": "generated-index",
-    "description": "Notes on Azure App Service."
+    "type": "doc",
+    "id": "index"
   }
 }

@@ -1,7 +1,8 @@
 {
   "label": "Azure Functions",
+  "position": 4,
   "link": {
-    "type": "generated-index",
-    "description": "Notes on Azure Functions."
+    "type": "doc",
+    "id": "index"
   }
 }
