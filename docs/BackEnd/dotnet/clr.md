@@ -1,4 +1,10 @@
-The **CLR**—Common Language Runtime—is the managed execution environment that runs .NET applications. In .NET Core and modern .NET, its implementation is called **CoreCLR**. It loads assemblies, compiles Intermediate Language (IL) into native machine code, manages memory, handles exceptions, and provides runtime services such as threading and type safety.[1][2]
+---
+title: Common Language Runtime
+sidebar_label: Common Language Runtime
+sidebar_position: 1
+---
+
+The **CLR**—Common Language Runtime is the managed execution environment that runs .NET applications. In .NET Core and modern .NET, its implementation is called **CoreCLR**. It loads assemblies, compiles Intermediate Language (IL) into native machine code, manages memory, handles exceptions, and provides runtime services such as threading and type safety.[1][2]
 
 ## Where it fits
 

@@ -1,3 +1,9 @@
+---
+title: Garbage Collection
+sidebar_label: Garbage Collection
+sidebar_position: 2
+---
+
 Modern .NET garbage collection (GC) is an automatic, **generational tracing collector**. It allocates managed objects on the heap, finds which objects are still reachable from application roots, reclaims unreachable ones, and usually compacts memory so future allocations remain fast.[1][2]
 
 ## Core idea

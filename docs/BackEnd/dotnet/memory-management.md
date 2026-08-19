@@ -1,3 +1,9 @@
+---
+title: Memory Management
+sidebar_label: Memory Management
+sidebar_position: 6
+---
+
 Memory management in .NET Core and modern C# is mostly automatic: the runtime allocates managed objects, the garbage collector reclaims objects that are no longer reachable, and developers explicitly dispose resources that represent external or unmanaged handles. The key distinction is **memory lifetime** versus **resource lifetime**.[1][2]
 
 ## The big picture
