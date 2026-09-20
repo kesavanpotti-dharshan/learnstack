@@ -116,6 +116,7 @@ const config: Config = {
       items: [
         { to: "/docs/", label: "Notes", position: "left" },
         { to: "/blog/", label: "Blog", position: "left" },
+        { href: "pathname:///career/", label: "Career", position: "left" },
         {
           href: "https://github.com/kesavanpotti-dharshan/learnstack",
           label: "GitHub",
