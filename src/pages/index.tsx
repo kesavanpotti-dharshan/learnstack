@@ -17,6 +17,7 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
+        <p className={styles.heroStat}>{topics.length} topics · updated as I learn</p>
         <div className={styles.buttons}>
           <Link className="button button--primary button--lg" to="/docs/">
             Browse the notes →
@@ -38,6 +39,7 @@ type Topic = {
   emoji: string;
   description: string;
   to: string;
+  badge?: string;
 };
 
 const topics: Topic[] = [
@@ -89,6 +91,20 @@ const topics: Topic[] = [
     description: "Notes on Python programming and libraries.",
     to: "/docs/BackEnd/python/python-roadmap",
   },
+  {
+    title: "Artificial Intelligence",
+    emoji: "🤖",
+    description: "LLMs, RAG, agents, evaluation, and AI system architecture.",
+    to: "/docs/Artificial Intelligence/overview",
+    badge: "New",
+  },
+  {
+    title: "Behavioral",
+    emoji: "🗣️",
+    description: "Interview stories, self-intro, and behavioral prep.",
+    to: "/docs/category/behavioral",
+    badge: "New",
+  },
 ];
 
 function TopicGrid() {
@@ -101,6 +117,9 @@ function TopicGrid() {
         <div className={styles.grid}>
           {topics.map((topic) => (
             <Link key={topic.title} to={topic.to} className={styles.card}>
+              {topic.badge && (
+                <span className={styles.cardBadge}>{topic.badge}</span>
+              )}
               <span className={styles.cardEmoji}>{topic.emoji}</span>
               <Heading as="h3" className={styles.cardTitle}>
                 {topic.title}
